@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+
+    <Appenders>
+
+        <File name="file" fileName="logs\log.log">
+            <PatternLayout>
+                <Pattern>%d{HH:mm:ss} %-5p: %m%n</Pattern>
+            </PatternLayout>
+        </File>
+    </Appenders>
+    <Loggers>
+        <Root level="trace">
+            <AppenderRef ref="file" level="TRACE"/>
+        </Root>
+    </Loggers>
+</Configuration>
