@@ -5,6 +5,7 @@ import java.util.Locale;
 import java.util.ResourceBundle;
  
 public class Greeting {
+ 
     private static Logger log = LogManager.getLogger(Greeting.class);
 
     private static final int MORNING = 6;
