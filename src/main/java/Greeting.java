@@ -15,6 +15,7 @@ public class Greeting {
     private static final int MIDNIGHT = 24;
 
     public static String getGreeting(int hours) {
+     
         log.trace("Current hours: " + hours);
         Locale defaultLocale = Locale.getDefault();
         ResourceBundle rb = ResourceBundle.getBundle("greeting", defaultLocale);
@@ -35,5 +36,6 @@ public class Greeting {
         }
         log.warn("From Greeting.getGreeting(String) returning null value!");
         return null;
+     
     }
 }
