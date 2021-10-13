@@ -36,6 +36,5 @@ public class Greeting {
         }
         log.warn("From Greeting.getGreeting(String) returning null value!");
         return null;
-     
     }
 }
