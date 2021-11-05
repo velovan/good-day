@@ -34,7 +34,9 @@ public class Greeting {
             log.trace("Sending a night greeting...");
             return rb.getString("my.night");
         }
+     
         log.warn("From Greeting.getGreeting(String) returning null value!");
+     
         return null;
     }
 }
