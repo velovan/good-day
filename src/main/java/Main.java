@@ -9,11 +9,8 @@ public class Main {
     public static void main(String[] ar) {
      
         LocalTime lt = LocalTime.now();
-     
         String output = Greeting.getGreeting(lt.getHour());
-     
         log.trace("Getting an output: " + output);
-     
         System.out.print(output);
     }
 }
