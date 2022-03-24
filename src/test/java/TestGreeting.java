@@ -21,62 +21,63 @@ public class TestGreeting {
     public TestWatcher watchman = new GTestWatcher();
 
     @Test
-    public void testMorningGreeting6() {
+    public void testMorningGreeting6(){
         assertTrue(morningGreeting.equals(Greeting.getGreeting(6)));
     }
 
     @Test
-    public void testMorningGreeting7() {
+    public void testMorningGreeting7(){
         assertTrue(morningGreeting.equals(Greeting.getGreeting(7)));
     }
 
     @Test
-    public void testMorningGreeting8() {
+    public void testMorningGreeting8(){
         assertTrue(morningGreeting.equals(Greeting.getGreeting(8)));
     }
 
     @Test
-    public void testDayGreeting9() {
+    public void testDayGreeting9(){
         assertTrue(dayGreeting.equals(Greeting.getGreeting(9)));
     }
 
     @Test
-    public void testDayGreeting10() {
+    public void testDayGreeting10(){
         assertTrue(dayGreeting.equals(Greeting.getGreeting(10)));
     }
 
     @Test
-    public void testDayGreeting18() {
+    public void testDayGreeting18(){
         assertTrue(dayGreeting.equals(Greeting.getGreeting(18)));
     }
 
     @Test
-    public void testEveningGreeting19() {
+    public void testEveningGreeting19(){
         assertTrue(eveningGreeting.equals(Greeting.getGreeting(19)));
     }
 
     @Test
-    public void testEveningGreeting22() {
+    public void testEveningGreeting22(){
         assertTrue(eveningGreeting.equals(Greeting.getGreeting(22)));
     }
 
     @Test
-    public void testNightGreeting23() {
+    public void testNightGreeting23(){
         assertTrue(nightGreeting.equals(Greeting.getGreeting(23)));
     }
 
     @Test
-    public void testNightGreeting0() {
+    public void testNightGreeting0(){
         assertTrue(nightGreeting.equals(Greeting.getGreeting(0)));
     }
 
     @Test
-    public void testNightGreeting1() {
+    public void testNightGreeting1(){
         assertTrue(nightGreeting.equals(Greeting.getGreeting(1)));
     }
 
     @Test
-    public void testNightGreeting5() {
+    public void testNightGreeting5(){
         assertTrue(nightGreeting.equals(Greeting.getGreeting(5)));
     }
+ 
 }
